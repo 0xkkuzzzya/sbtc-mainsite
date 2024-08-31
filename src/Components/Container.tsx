@@ -39,24 +39,28 @@ const FirstBlock = styled.div`
 
 const FirstBlockText = styled.a`
     font-size: 45px;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     text-decoration: none;
     font-family: 'Metropolis', sans-serif;
+    line-height: 2.5rem;
     @media (max-width: 800px) {
-        font-size: 30px;
+        font-size: 35px;
     }
 `
 
 const FirstBlockDescription = styled.a`
-    font-size: 30px;
+    max-width: 600px;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
     text-decoration: none;
     font-family: 'Metropolis', sans-serif;
-    line-height: 1.4;
+    line-height: 2.5rem;
+    margin-top: 10px;
     @media (max-width: 800px) {
         font-size: 14px;
+        line-height: 1.5rem;
     }
 `
 
@@ -129,11 +133,11 @@ export const MainContainer = () => {
                         <div style={{ marginBottom: '20px' }}>
                             SunBTC: Bitcoin, built on <GradientText>TRON</GradientText>
                         </div>
-                        <FirstBlockDescription>
+                    </FirstBlockText>
+                    <FirstBlockDescription>
                             SunBTC is a token on the TRON that emulates the economic model of Bitcoin,
                             incorporating features such as NFT GPUs mining, virtual electricity consumption, and periodic halvings.
-                        </FirstBlockDescription>
-                    </FirstBlockText>
+                    </FirstBlockDescription>
                     <ButtonBlock>
                         <GradientButton>Open App</GradientButton>
                         <WhiteButton> <TelegramLogo src={TelegramIcon} /> Channel</WhiteButton>

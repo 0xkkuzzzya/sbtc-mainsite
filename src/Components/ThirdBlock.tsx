@@ -37,9 +37,10 @@ const BlockDescription = styled.a`
     text-decoration: none;
     font-family: 'Metropolis', sans-serif;
     margin-top: 20px;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     @media (max-width: 800px) {
         font-size: 15px;
+        line-height: 1.5rem;
     }
 `
 
