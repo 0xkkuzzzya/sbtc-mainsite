@@ -81,23 +81,23 @@ const ButtonBlock = styled.div`
 `
 
 const GradientButton = styled.button`
-    width: 170px;
-    height: 50px;
+    width: 180px;
+    height: 45px;
     background: linear-gradient(90deg, #e87817 0%, #e60f09 100%);
     color: #fff;
     font-size: 17px;
     font-weight: 500;
     border-radius: 15px;
     @media (max-width: 800px) {
-        width: 150px;
-        height: 45px;
+        width: 160px;
+        height: 42px;
         font-size: 15px;
     }
 `
 
 const WhiteButton = styled.button`
-    width: 170px;
-    height: 50px;
+    width: 180px;
+    height: 45px;
     background: #fff;
     color: #000;
     font-size: 17px;
@@ -107,8 +107,8 @@ const WhiteButton = styled.button`
     justify-content: center;
     align-items: center;
     @media (max-width: 800px) {
-        width: 150px;
-        height: 45px;
+        width: 160px;
+        height: 42px;
         font-size: 15px;
     }
 `
