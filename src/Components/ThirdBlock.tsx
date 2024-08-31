@@ -12,8 +12,8 @@ const BlockContainer = styled.div`
 `
 
 const BlockLogo = styled.img`
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin-bottom: 30px;
     @media (max-width: 800px) {
         width: 80px;
