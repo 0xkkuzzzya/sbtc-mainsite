@@ -54,9 +54,9 @@ const FirstBlockDescription = styled.a`
     color: #fff;
     text-decoration: none;
     font-family: 'Metropolis', sans-serif;
-    line-height: 1.2rem;
+    line-height: 1.4;
     @media (max-width: 800px) {
-        font-size: 20px;
+        font-size: 14px;
     }
 `
 
@@ -135,7 +135,7 @@ export const MainContainer = () => {
                     </FirstBlockText>
                     <ButtonBlock>
                         <GradientButton>Open App</GradientButton>
-                        <WhiteButton> <TelegramLogo src={TelegramIcon} /> Telegram</WhiteButton>
+                        <WhiteButton> <TelegramLogo src={TelegramIcon} /> Channel</WhiteButton>
                     </ButtonBlock>
                 </FirstBlock>
             </div>

@@ -9,7 +9,7 @@ const BlockContainer = styled.div`
     align-items: flex-start;
     margin-top: -150px;
     @media screen {
-        margin-top: -30px;
+        margin-top: 0px;
     }
 `
 
@@ -28,9 +28,7 @@ const BlockText = styled.a`
     color: #fff;
     text-decoration: none;
     font-family: 'Metropolis', sans-serif;
-    @media (max-width: 800px) {
-        font-size: 23px;
-    }
+    line-height: 2.2rem;
 `
 
 const BlockDescription = styled.a`
@@ -40,7 +38,6 @@ const BlockDescription = styled.a`
     text-decoration: none;
     font-family: 'Metropolis', sans-serif;
     margin-top: 20px;
-    line-height: 1.5rem;
     @media (max-width: 800px) {
         font-size: 15px;
     }
