@@ -8,6 +8,9 @@ const BlockContainer = styled.div`
     justify-content: center;
     align-items: flex-start;
     margin-top: -150px;
+    @media screen {
+        margin-top: -30px;
+    }
 `
 
 const BlockLogo = styled.img`
