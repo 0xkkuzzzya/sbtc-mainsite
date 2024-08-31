@@ -17,8 +17,8 @@ const BlockLogo = styled.img`
     width: 200px;
     height: 200px;
     @media (max-width: 800px) {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 `
 
@@ -38,6 +38,7 @@ const BlockDescription = styled.a`
     text-decoration: none;
     font-family: 'Metropolis', sans-serif;
     margin-top: 20px;
+    line-height: 1.5rem;
     @media (max-width: 800px) {
         font-size: 15px;
     }
