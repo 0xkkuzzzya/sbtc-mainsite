@@ -17,8 +17,8 @@ const BlockLogo = styled.img`
     width: 200px;
     height: 200px;
     @media (max-width: 800px) {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
 `
 
