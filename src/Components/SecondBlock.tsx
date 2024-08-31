@@ -17,8 +17,8 @@ const BlockLogo = styled.img`
     width: 180px;
     height: 180px;
     @media (max-width: 800px) {
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
     }
 `
 
@@ -42,6 +42,7 @@ const BlockDescription = styled.a`
     @media (max-width: 800px) {
         font-size: 15px;
         line-height: 1.5rem;
+        max-width: 250px;
     }
 `
 

@@ -35,6 +35,9 @@ const FirstBlock = styled.div`
     align-items: center;
     margin-top: 80px;
     text-align: center;
+    @media (max-width: 800px) {
+        margin-top: 50px;
+    }
 `
 
 const FirstBlockText = styled.a`
@@ -46,12 +49,13 @@ const FirstBlockText = styled.a`
     line-height: 3.5rem;
     @media (max-width: 800px) {
         font-size: 35px;
+        line-height: 3rem;
     }
 `
 
 const FirstBlockDescription = styled.a`
     max-width: 600px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #fff;
     text-decoration: none;
@@ -60,6 +64,7 @@ const FirstBlockDescription = styled.a`
     @media (max-width: 800px) {
         font-size: 14px;
         line-height: 1.5rem;
+        margin-top: -5px;
     }
 `
 
@@ -86,10 +91,10 @@ const GradientButton = styled.button`
     color: #fff;
     font-size: 17px;
     font-weight: 500;
-    border-radius: 15px;
+    border-radius: 12px;
     @media (max-width: 800px) {
-        width: 160px;
-        height: 42px;
+        width: 140px;
+        height: 40px;
         font-size: 15px;
     }
 `
@@ -101,13 +106,13 @@ const WhiteButton = styled.button`
     color: #000;
     font-size: 17px;
     font-weight: 500;
-    border-radius: 15px;
+    border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     @media (max-width: 800px) {
-        width: 160px;
-        height: 42px;
+        width: 140px;
+        height: 40px;
         font-size: 15px;
     }
 `

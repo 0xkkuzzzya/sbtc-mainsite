@@ -8,16 +8,16 @@ const BlockContainer = styled.div`
     justify-content: center;
     align-items: flex-end;
     text-align: right;
-    margin-top: 70px;
+    margin-top: 100px;
 `
 
 const BlockLogo = styled.img`
     width: 120px;
     height: 120px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     @media (max-width: 800px) {
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 70px;
     }
 `
 
@@ -41,6 +41,7 @@ const BlockDescription = styled.a`
     @media (max-width: 800px) {
         font-size: 15px;
         line-height: 1.5rem;
+        max-width: 250px;
     }
 `
 

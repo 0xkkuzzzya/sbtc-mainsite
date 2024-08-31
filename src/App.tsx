@@ -16,7 +16,7 @@ const Container = styled.div`
     flex-direction: column;
 	margin: auto;
 	@media (max-width: 800px) {
-		width: 85%;
+		width: 80%;
 	}
 `
 
