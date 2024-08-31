@@ -78,7 +78,7 @@ const ButtonBlock = styled.div`
 
 const GradientButton = styled.button`
     width: 170px;
-    height: 45px;
+    height: 50px;
     background: linear-gradient(90deg, #e87817 0%, #e60f09 100%);
     color: #fff;
     font-size: 17px;
@@ -86,14 +86,14 @@ const GradientButton = styled.button`
     border-radius: 15px;
     @media (max-width: 800px) {
         width: 150px;
-        height: 40px;
+        height: 45px;
         font-size: 15px;
     }
 `
 
 const WhiteButton = styled.button`
     width: 170px;
-    height: 45px;
+    height: 50px;
     background: #fff;
     color: #000;
     font-size: 17px;
@@ -104,7 +104,7 @@ const WhiteButton = styled.button`
     align-items: center;
     @media (max-width: 800px) {
         width: 150px;
-        height: 40px;
+        height: 45px;
         font-size: 15px;
     }
 `
@@ -113,6 +113,7 @@ const TelegramLogo = styled.img`
     width: 20px;
     height: 20px;
     margin-right: 5px;
+    margin-top: -2px;
 `
 
 
