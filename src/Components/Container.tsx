@@ -38,12 +38,12 @@ const FirstBlock = styled.div`
 `
 
 const FirstBlockText = styled.a`
-    font-size: 45px;
+    font-size: 55px;
     font-weight: 600;
     color: #fff;
     text-decoration: none;
     font-family: 'Metropolis', sans-serif;
-    line-height: 2.5rem;
+    line-height: 3.5rem;
     @media (max-width: 800px) {
         font-size: 35px;
     }
@@ -56,8 +56,7 @@ const FirstBlockDescription = styled.a`
     color: #fff;
     text-decoration: none;
     font-family: 'Metropolis', sans-serif;
-    line-height: 2.5rem;
-    margin-top: 10px;
+    line-height: 2.1rem;
     @media (max-width: 800px) {
         font-size: 14px;
         line-height: 1.5rem;
@@ -76,7 +75,7 @@ const ButtonBlock = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 40px;
     gap: 20px;
 `
 
@@ -131,7 +130,7 @@ export const MainContainer = () => {
                 <FirstBlock>
                     <FirstBlockText>
                         <div style={{ marginBottom: '20px' }}>
-                            SunBTC: Bitcoin, built on <GradientText>TRON</GradientText>
+                            SunBTC: Bitcoin, <br/> built on <GradientText>TRON</GradientText>
                         </div>
                     </FirstBlockText>
                     <FirstBlockDescription>
