@@ -8,6 +8,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 `
 
 const NameBlock = styled.div`
@@ -128,7 +129,7 @@ const TelegramLogo = styled.img`
 export const MainContainer = () => {
     return (
         <Container>
-            <div style={{height: '100vh'}}>
+            <div>
                 <NameBlock>
                     <SunBTCNameBlock src={SunBTCLogo} />
                 </NameBlock>
