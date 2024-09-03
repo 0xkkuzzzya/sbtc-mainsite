@@ -71,9 +71,9 @@ export const FourthBlock = () => {
     return (
 
         <BlockContainer ref={ref}>
-            <BlockLogo marginM={inView == true ? '0px' : '30px'} opacityM={inView == true ? '1' : '0'} src={Documentation} />
-            <BlockText marginM={inView == true ? '0px' : '30px'} opacityM={inView == true ? '1' : '0'}><GradientText>100%</GradientText> based on TRON smart-contracts.</BlockText>
-            <BlockDescription marginM={inView == true ? '10px' : '30px'} opacityM={inView == true ? '1' : '0'}>
+            <BlockLogo marginM={inView == true ? '0px' : '50px'} opacityM={inView == true ? '1' : '0'} src={Documentation} />
+            <BlockText marginM={inView == true ? '0px' : '50px'} opacityM={inView == true ? '1' : '0'}><GradientText>100%</GradientText> based on TRON smart-contracts.</BlockText>
+            <BlockDescription marginM={inView == true ? '10px' : '50px'} opacityM={inView == true ? '1' : '0'}>
                 SunBTC protocol is a fair-mining smart-contracts based on TRON. $SUNBTC is the first fully programmable community token on TRON.
             </BlockDescription>
         </BlockContainer>

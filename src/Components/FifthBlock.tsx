@@ -16,7 +16,7 @@ const BlockContainer = styled.div`
 const BlockLogo = styled.img <{ marginM: string, opacityM: string }>`
     width: 130px;
     height: 115px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-top: ${(props: { marginM: any; }) => props.marginM};
     opacity: ${(props: { opacityM: any; }) => props.opacityM};
     transition: all 1s ease-in-out;
@@ -72,9 +72,9 @@ export const FifthBlock = () => {
 
     return (
         <BlockContainer ref={ref}>
-            <BlockLogo marginM={inView == true ? '0px' : '30px'} opacityM={inView == true ? '1' : '0'} src={Mining} />
-            <BlockText marginM={inView == true ? '0px' : '30px'} opacityM={inView == true ? '1' : '0'}>Start <GradientText>mining</GradientText> $SUNBTC.</BlockText>
-            <BlockDescription marginM={inView == true ? '10px' : '30px'} opacityM={inView == true ? '1' : '0'}>
+            <BlockLogo marginM={inView == true ? '0px' : '50px'} opacityM={inView == true ? '1' : '0'} src={Mining} />
+            <BlockText marginM={inView == true ? '0px' : '50px'} opacityM={inView == true ? '1' : '0'}>Start <GradientText>mining</GradientText> $SUNBTC.</BlockText>
+            <BlockDescription marginM={inView == true ? '10px' : '50px'} opacityM={inView == true ? '1' : '0'}>
                 Get NFT GPUs. Open SunBit App. Pay for virtual electricity. Start mining TRON's version of Bitcoin.
             </BlockDescription>
         </BlockContainer>

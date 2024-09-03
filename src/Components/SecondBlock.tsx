@@ -65,9 +65,9 @@ export const SecondBlock = () => {
     return (
 
         <BlockContainer ref={ref}>
-            <BlockLogo marginM={inView == true ? '0px' : '30px'} opacityM={inView == true ? '1' : '0'} src={BBLogo} />
-            <BlockText marginM={inView == true ? '0px' : '30px'} opacityM={inView == true ? '1' : '0'}>21M $SunBTC. Mining. Electricity. Halvings.</BlockText>
-            <BlockDescription marginM={inView == true ? '10px' : '30px'} opacityM={inView == true ? '1' : '0'}>
+            <BlockLogo marginM={inView == true ? '0px' : '50px'} opacityM={inView == true ? '1' : '0'} src={BBLogo} />
+            <BlockText marginM={inView == true ? '0px' : '50px'} opacityM={inView == true ? '1' : '0'}>21M $SunBTC. Mining. Electricity. Halvings.</BlockText>
+            <BlockDescription marginM={inView == true ? '10px' : '50px'} opacityM={inView == true ? '1' : '0'}>
                 Miners mine SunBTC with their virtual NFT GPUs, pay for virtual electricity with TRX.
                 TRX earned from electricity go to incentives for LP farmers of the SunBTC / TRX pool on SunSwap.
             </BlockDescription>

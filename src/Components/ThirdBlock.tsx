@@ -63,9 +63,9 @@ export const ThirdBlock = () => {
 
     return (
         <BlockContainer ref={ref}>
-            <BlockLogo marginM={inView == true ? '0px' : '30px'} opacityM={inView == true ? '1' : '0'} src={Scales} />
-            <BlockText marginM={inView == true ? '0px' : '30px'} opacityM={inView == true ? '1' : '0'}>Not your average TRON memecoin.</BlockText>
-            <BlockDescription marginM={inView == true ? '10px' : '30px'} opacityM={inView == true ? '1' : '0'}>$SUNBTC is the most fair token on TRON blockchain. No team allocation, no insiders, no whales.</BlockDescription>
+            <BlockLogo marginM={inView == true ? '0px' : '50px'} opacityM={inView == true ? '1' : '0'} src={Scales} />
+            <BlockText marginM={inView == true ? '0px' : '50px'} opacityM={inView == true ? '1' : '0'}>Not your average TRON memecoin.</BlockText>
+            <BlockDescription marginM={inView == true ? '10px' : '50px'} opacityM={inView == true ? '1' : '0'}>$SUNBTC is the most fair token on TRON blockchain. No team allocation, no insiders, no whales.</BlockDescription>
         </BlockContainer>
     )
 }
