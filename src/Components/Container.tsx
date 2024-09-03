@@ -8,7 +8,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 `
 
 const NameBlock = styled.div`
